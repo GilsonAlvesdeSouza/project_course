@@ -2,7 +2,7 @@
 
 @section('conteudo')
 
-    <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_1.jpg);"
+    <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(front/assets/images/img_bg_1.jpg);"
             data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
@@ -65,7 +65,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-push-5 animate-box">
-                        <img class="img-responsive" src="images/work_1.png" alt="work">
+                        <img class="img-responsive" src="front/assets/images/work_1.png" alt="work">
                     </div>
                     <div class="col-md-4 col-md-pull-8 animate-box">
                         <div class="mt">
@@ -90,7 +90,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-pull-1 animate-box">
-                        <img class="img-responsive" src="images/work_1.png" alt="work">
+                        <img class="img-responsive" src="front/assets/images/work_1.png" alt="work">
                     </div>
                     <div class="col-md-4 animate-box">
                         <div class="mt">
@@ -129,42 +129,42 @@
         <div class="container-fluid proj-bottom">
             <div class="row">
                 <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-                    <a href="#"><img src="images/project-1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co"
+                    <a href="#"><img src="front/assets/images/project-1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co"
                                      class="img-responsive">
                         <h3>Web Master</h3>
                         <span>View Course</span>
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-                    <a href="#"><img src="images/project-2.jpg" alt="Free HTML5 Website Template by FreeHTML5.co"
+                    <a href="#"><img src="front/assets/images/project-2.jpg" alt="Free HTML5 Website Template by FreeHTML5.co"
                                      class="img-responsive">
                         <h3>Virtual Assistant</h3>
                         <span>View Course</span>
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-                    <a href="#"><img src="images/project-3.jpg" alt="Free HTML5 Website Template by FreeHTML5.co"
+                    <a href="#"><img src="front/assets/images/project-3.jpg" alt="Free HTML5 Website Template by FreeHTML5.co"
                                      class="img-responsive">
                         <h3>Read Bible</h3>
                         <span>View Course</span>
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-                    <a href="#"><img src="images/project-9.jpg" alt="Free HTML5 Website Template by FreeHTML5.co"
+                    <a href="#"><img src="front/assets/images/project-9.jpg" alt="Free HTML5 Website Template by FreeHTML5.co"
                                      class="img-responsive">
                         <h3>Programming</h3>
                         <span>View Course</span>
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-                    <a href="#"><img src="images/project-5.jpg" alt="Free HTML5 Website Template by FreeHTML5.co"
+                    <a href="#"><img src="front/assets/images/project-5.jpg" alt="Free HTML5 Website Template by FreeHTML5.co"
                                      class="img-responsive">
                         <h3>Technician</h3>
                         <span>View Course</span>
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-                    <a href="#"><img src="images/project-6.jpg" alt="Free HTML5 Website Template by FreeHTML5.co"
+                    <a href="#"><img src="front/assets/images/project-6.jpg" alt="Free HTML5 Website Template by FreeHTML5.co"
                                      class="img-responsive">
                         <h3>Photography</h3>
                         <span>View Course</span>
@@ -264,7 +264,7 @@
                             <div class="item">
                                 <div class="testimony-slide active text-center">
                                     <figure>
-                                        <img src="images/person_1.jpg" alt="user">
+                                        <img src="front/assets/images/person_1.jpg" alt="user">
                                     </figure>
                                     <span>Jean Doe, via <a href="#" class="twitter">Twitter</a></span>
                                     <blockquote>
@@ -277,7 +277,7 @@
                             <div class="item">
                                 <div class="testimony-slide active text-center">
                                     <figure>
-                                        <img src="images/person_2.jpg" alt="user">
+                                        <img src="front/assets/images/person_2.jpg" alt="user">
                                     </figure>
                                     <span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
                                     <blockquote>
@@ -289,7 +289,7 @@
                             <div class="item">
                                 <div class="testimony-slide active text-center">
                                     <figure>
-                                        <img src="images/person_3.jpg" alt="user">
+                                        <img src="front/assets/images/person_3.jpg" alt="user">
                                     </figure>
                                     <span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
                                     <blockquote>
@@ -318,7 +318,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="fh5co-blog animate-box">
-                        <a href="#"><img class="img-responsive" src="images/project-4.jpg" alt=""></a>
+                        <a href="#"><img class="img-responsive" src="front/assets/images/project-4.jpg" alt=""></a>
                         <div class="blog-text">
                             <h3><a href="" #>45 Minimal Workspace Rooms for Web Savvys</a></h3>
                             <span class="posted_on">Nov. 15th</span>
@@ -331,7 +331,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4">
                     <div class="fh5co-blog animate-box">
-                        <a href="#"><img class="img-responsive" src="images/project-2.jpg" alt=""></a>
+                        <a href="#"><img class="img-responsive" src="front/assets/images/project-2.jpg" alt=""></a>
                         <div class="blog-text">
                             <h3><a href="" #>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
                             <span class="posted_on">Nov. 15th</span>
@@ -344,7 +344,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4">
                     <div class="fh5co-blog animate-box">
-                        <a href="#"><img class="img-responsive" src="images/project-3.jpg" alt=""></a>
+                        <a href="#"><img class="img-responsive" src="front/assets/images/project-3.jpg" alt=""></a>
                         <div class="blog-text">
                             <h3><a href="" #>45 Minimal Workspace Rooms for Web Savvys</a></h3>
                             <span class="posted_on">Nov. 15th</span>
@@ -360,7 +360,7 @@
     </div>
 
 
-    <div id="fh5co-started" style="background-image:url(images/img_bg_2.jpg);">
+    <div id="fh5co-started" style="background-image:url(front/assets/images/img_bg_2.jpg);">
         <div class="overlay"></div>
         <div class="container">
             <div class="row animate-box">
