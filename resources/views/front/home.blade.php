@@ -1,22 +1,21 @@
 @extends('front.master.master')
 
-@section('conteudo')
+@section('content')
 
-    <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(front/assets/images/img_bg_1.jpg);"
-            data-stellar-background-ratio="0.5">
+    <header id="fh5co-header" class="fh5co-cover" style="background-image:url(front/assets/images/bg_1.jpeg); background-position: center bottom !important; background-attachment: fixed !important;">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center">
                     <div class="display-t">
                         <div class="display-tc animate-box" data-animate-effect="fadeIn">
-                            <h1>The Art of Teaching is the Art of Assisting Discovery</h1>
-                            <h2>Free html5 templates Made by <a href="http://freehtml5.co/"
-                                                                target="_blank">freehtml5.co</a></h2>
-                            <p><a class="btn btn-primary btn-lg btn-learn" href="#">Take A Course</a> <a
-                                    class="btn btn-primary btn-lg popup-vimeo btn-video"
-                                    href="https://vimeo.com/channels/staffpicks/93951774"><i class="icon-play"></i>
-                                    Watch Video</a></p>
+                            <h1>Aprenda a Trabalhar com o <span style="color: #f4645f">FrameWork PHP</span> mais utilizado do Mundo</h1>
+                            <h2>Com a metodologia e certificado da <a href="https://www.upinside.com.br"
+                                                                target="_blank">UpInside Treinamentos</a></h2>
+                            <p><a class="btn btn-primary btn-lg btn-learn" href="{{ route('course') }}">Conhecer o Curso</a> <a
+                                        class="btn btn-primary btn-lg popup-vimeo btn-video"
+                                        href="https://vimeo.com/channels/staffpicks/93951774"><i class="icon-play"></i>
+                                    O que falam de nós</a></p>
                         </div>
                     </div>
                 </div>
@@ -55,9 +54,8 @@
         <div class="container">
             <div class="row animate-box">
                 <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-                    <h2>Take A Course</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                        live the blind texts. </p>
+                    <h2>Laravel Developer</h2>
+                    <p>Um treinamento completo do zero ao developer para você aprender e se especializar no Laravel e abrir as portas de um mercado repleto de oportunidades!</p>
                 </div>
             </div>
         </div>
@@ -69,17 +67,15 @@
                     </div>
                     <div class="col-md-4 col-md-pull-8 animate-box">
                         <div class="mt">
-                            <h3>We Want You To Learn English</h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                                there live the blind texts.</p>
+                            <h3>Vem aprender com a gente!</h3>
+                            <p>Confira a grade completa de aulas e aproveite para assitir algumas delas para conhecer nossa metodologia.</p>
                             <ul class="list-nav">
-                                <li><i class="icon-check2"></i>Far far away, behind the word</li>
-                                <li><i class="icon-check2"></i>There live the blind texts</li>
-                                <li><i class="icon-check2"></i>Separated they live in bookmarksgrove</li>
+                                <li><i class="icon-check2"></i>Suporte Exclusivo um a um</li>
+                                <li><i class="icon-check2"></i>Conteúdo 100% online</li>
+                                <li><i class="icon-check2"></i>Material de Apoio</li>
                             </ul>
                             <p><a class="btn btn-primary btn-lg popup-vimeo btn-video"
-                                  href="https://vimeo.com/channels/staffpicks/93951774"><i class="icon-play"></i> Watch
-                                    Video</a></p>
+                                  href="https://vimeo.com/channels/staffpicks/93951774"><i class="icon-play"></i> Assistir uma aula</a></p>
                         </div>
                     </div>
                 </div>
@@ -95,19 +91,16 @@
                     <div class="col-md-4 animate-box">
                         <div class="mt">
                             <div>
-                                <h4><i class="icon-user"></i>Real Project For Real Solutions</h4>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                                    Consonantia. </p>
+                                <h4><i class="icon-trophy"></i>Certificado de Conclusão</h4>
+                                <p>Certificado da Escola eleita a melhor do Segmento pela LAQI com reconhecimento em 17 países da América Latina</p>
                             </div>
                             <div>
-                                <h4><i class="icon-video2"></i>Real Project For Real Solutions</h4>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                                    Consonantia, there live the blind texts. </p>
+                                <h4><i class="icon-add-user"></i>Recomendações da Comunidade</h4>
+                                <p>Trabalhe de forma mais ágil com o framework utilizando boas práticas e PSR's para ter um código padronizado.</p>
                             </div>
                             <div>
-                                <h4><i class="icon-shield"></i>Real Project For Real Solutions</h4>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                                    Consonantia. </p>
+                                <h4><i class="icon-shield"></i>Projetos Reais e Soluções Reais</h4>
+                                <p>Desenvolva 4 projetos para aplicar o conhecimento adquirido em uma solução de verdade.</p>
                             </div>
                         </div>
                     </div>
@@ -120,9 +113,8 @@
         <div class="container">
             <div class="row animate-box">
                 <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                    <h2>Showcase of A Finish Projects</h2>
-                    <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident.
-                        Odit ab aliquam dolor eius.</p>
+                    <h2>Projetos entregue pelos Alunos</h2>
+                    <p>Veja alguns projetos de alunos que entregaram soluções usando o conhecimento obtido através do treinamento</p>
                 </div>
             </div>
         </div>
@@ -175,24 +167,21 @@
         <div class="container">
             <div class="row">
                 <div class="features">
-                    <div class="col-md-4 animate-box">
-                        <h4>We have coolest features of this course</h4>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts. </p>
+                    <div class="col-md-4 animate-box text-center">
+                        <h4>Passo a passo e Plano de Carreira</h4>
+                        <p>Mais do que aprender a trabalhar com o framework, aqui você vai ter um mapa para entrar no mercado já faturando.</p>
                     </div>
-                    <div class="col-md-4 animate-box">
-                        <h4>Great teachers that we have</h4>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts. </p>
+                    <div class="col-md-4 animate-box text-center">
+                        <h4>3 cursos a mais para Complementar</h4>
+                        <p>Para somar nas suas skills e dominar todo o cenário, você conta com mais 3 cursos completos. Todos com suporte!</p>
                     </div>
-                    <div class="col-md-4 animate-box">
-                        <h4>Steps by steps turorial session</h4>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts. </p>
+                    <div class="col-md-4 animate-box text-center">
+                        <h4>30 Dias de Garantia</h4>
+                        <p>Se em 30 dias você não estiver passado de 30% de progresso no curso e decidir que o curso não é para você... Nós devolvemos seu dinheiro.</p>
                     </div>
                 </div>
                 <div class="col-md-12 text-center animate-box">
-                    <p><a class="btn btn-primary btn-lg btn-learn" href="#">Create A Free Course</a></p>
+                    <p><a class="btn btn-primary btn-lg btn-learn" href="https://www.upinside.com.br/laradev">Garanta agora a sua vaga no Curso</a></p>
                 </div>
             </div>
         </div>
@@ -202,120 +191,65 @@
         <div class="container">
             <div class="row animate-box">
                 <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                    <h2>Start A Course</h2>
-                    <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident.
-                        Odit ab aliquam dolor eius.</p>
+                    <h2>Os 4 Pilares do Zero ao Developer</h2>
+                    <p>Um passo a passo para você seguir e ter conhecimento sobre a ferramenta para desenvolver soluções personalizadas para atender a necessidade de seus clientes.</p>
                 </div>
             </div>
 
             <div class="row bs-wizard animate-box" style="border-bottom:0;">
 
                 <div class="col-xs-3 bs-wizard-step complete">
-                    <div class="text-center bs-wizard-stepnum"><h4>Step 1</h4></div>
+                    <div class="text-center bs-wizard-stepnum"><h4>Introdução</h4></div>
                     <div class="progress">
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center"><p>Create A Free Course</p></div>
+                    <div class="bs-wizard-info text-center"><p>Conheça o framework</p></div>
                 </div>
 
                 <div class="col-xs-3 bs-wizard-step active"><!-- complete -->
-                    <div class="text-center bs-wizard-stepnum"><h4>Step 2</h4></div>
+                    <div class="text-center bs-wizard-stepnum"><h4>Primeiro Contato</h4></div>
                     <div class="progress">
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center"><p>Upload Content</p></div>
+                    <div class="bs-wizard-info text-center"><p>É Fácil mas não é Simples</p></div>
                 </div>
 
                 <div class="col-xs-3 bs-wizard-step disabled"><!-- complete -->
-                    <div class="text-center bs-wizard-stepnum"><h4>Step 3</h4></div>
+                    <div class="text-center bs-wizard-stepnum"><h4>Comportamento</h4></div>
                     <div class="progress">
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center"><p>Make Your Course Beautiful</p></div>
+                    <div class="bs-wizard-info text-center"><p>Conhecendo todas as peças</p></div>
                 </div>
 
                 <div class="col-xs-3 bs-wizard-step disabled"><!-- active -->
-                    <div class="text-center bs-wizard-stepnum"><h4>Step 4</h4></div>
+                    <div class="text-center bs-wizard-stepnum"><h4>Projeto Prático</h4></div>
                     <div class="progress">
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center"><p>Start Making Money</p></div>
+                    <div class="bs-wizard-info text-center"><p>Aplicando tudo o que aprendeu</p></div>
                 </div>
             </div>
 
         </div>
     </div>
 
-    <div id="fh5co-testimonial" class="fh5co-bg-section">
-        <div class="container">
-            <div class="row animate-box">
-                <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-                    <h2>Testimonials</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <div class="row animate-box">
-                        <div class="owl-carousel owl-carousel-fullwidth">
-                            <div class="item">
-                                <div class="testimony-slide active text-center">
-                                    <figure>
-                                        <img src="front/assets/images/person_1.jpg" alt="user">
-                                    </figure>
-                                    <span>Jean Doe, via <a href="#" class="twitter">Twitter</a></span>
-                                    <blockquote>
-                                        <p>&ldquo;Far far away, behind the word mountains, far from the countries
-                                            Vokalia and Consonantia, there live the blind texts. Separated they live in
-                                            Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-                                    </blockquote>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="testimony-slide active text-center">
-                                    <figure>
-                                        <img src="front/assets/images/person_2.jpg" alt="user">
-                                    </figure>
-                                    <span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
-                                    <blockquote>
-                                        <p>&ldquo;Separated they live in Bookmarksgrove right at the coast of the
-                                            Semantics, a large language ocean.&rdquo;</p>
-                                    </blockquote>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="testimony-slide active text-center">
-                                    <figure>
-                                        <img src="front/assets/images/person_3.jpg" alt="user">
-                                    </figure>
-                                    <span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
-                                    <blockquote>
-                                        <p>&ldquo;Far from the countries Vokalia and Consonantia, there live the blind
-                                            texts. Separated they live in Bookmarksgrove right at the coast of the
-                                            Semantics, a large language ocean.&rdquo;</p>
-                                    </blockquote>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('front.includes.testimonials')
 
     <div id="fh5co-blog">
         <div class="container">
             <div class="row animate-box">
                 <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                    <h2>Recent Post</h2>
-                    <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident.
-                        Odit ab aliquam dolor eius.</p>
+                    <h2>Artigos Recentes</h2>
+                    <p>Confira aqui nossos últimos artigos e video aulas!<br>Conteúdo exclusivo sobre o Laravel FrameWork.</p>
                 </div>
             </div>
             <div class="row">
+
                 <div class="col-lg-4 col-md-4">
                     <div class="fh5co-blog animate-box">
                         <a href="#"><img class="img-responsive" src="front/assets/images/project-4.jpg" alt=""></a>
@@ -325,7 +259,7 @@
                             <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
                                 there live the blind texts.</p>
-                            <a href="#" class="btn btn-primary">Read More</a>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
                         </div>
                     </div>
                 </div>
@@ -338,7 +272,7 @@
                             <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
                                 there live the blind texts.</p>
-                            <a href="#" class="btn btn-primary">Read More</a>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
                         </div>
                     </div>
                 </div>
@@ -351,31 +285,16 @@
                             <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
                                 there live the blind texts.</p>
-                            <a href="#" class="btn btn-primary">Read More</a>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
 
 
-    <div id="fh5co-started" style="background-image:url(front/assets/images/img_bg_2.jpg);">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row animate-box">
-                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                    <h2>Lets Get Started</h2>
-                    <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident.
-                        Odit ab aliquam dolor eius.</p>
-                </div>
-            </div>
-            <div class="row animate-box">
-                <div class="col-md-8 col-md-offset-2 text-center">
-                    <p><a href="#" class="btn btn-default btn-lg">Create A Free Course</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('front.includes.optin')
 
 @endsection
