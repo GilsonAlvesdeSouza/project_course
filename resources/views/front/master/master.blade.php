@@ -9,8 +9,8 @@
     <meta name="author" content="freehtml5.co"/>
 
     <link href="https://fonts.googleapis.com/css?family=Miriam+Libre:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url(mix('front/assets/css/vendor.css')) }}">
-    <link rel="stylesheet" href="{{ url(mix('front/assets/css/style.css')) }}">
+    <link rel="stylesheet" href="{{ mix_e('front/assets/css/vendor.css') }}">
+    <link rel="stylesheet" href="{{ mix_e('front/assets/css/style.css') }}">
     @yield('stylesheet')
 
     <script src="{{ url(mix('front/assets/js/modernizr.js')) }}"></script>
