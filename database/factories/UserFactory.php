@@ -14,6 +14,8 @@ use Faker\Generator as Faker;
 |
 */
 
+$faker = \Faker\Factory::create('pt_BR');
+
 $factory->define(LaraCurso\User::class, function (Faker $faker) {
     return [
         'name' => $faker->name,
