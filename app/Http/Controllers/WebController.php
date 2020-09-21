@@ -3,12 +3,14 @@
 namespace LaraCurso\Http\Controllers;
 
 use Illuminate\Http\Request;
-use LaraCurso\Suporte\Seo;
+use LaraCurso\Model\Post;
 
 class WebController extends Controller
 {
     public function home()
     {
+        $posts = Post::orderBy('created_at', 'DESC')->limit(3)->get();
+
         $head = $this->seo->render(
             env('APP_NAME') . ' UpInside Treinamentos',
             'Curso completo de Laravel Developer',
@@ -17,6 +19,7 @@ class WebController extends Controller
         );
         return view('front.home', [
             'head' => $head,
+            'posts' => $posts,
         ]);
     }
 
