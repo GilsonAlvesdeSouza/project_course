@@ -25,6 +25,7 @@ class WebController extends Controller
 
     public function blog()
     {
+        $posts = Post::orderBy('created_at', 'asc')->get();
         $head = $this->seo->render(
             env('APP_NAME') . ' Blog Upinside',
             'Curso completo de Laravel Developer',
@@ -33,6 +34,7 @@ class WebController extends Controller
         );
         return view('front.home', [
             'head' => $head,
+            'posts' => $posts,
         ]);
     }
 
@@ -51,14 +53,16 @@ class WebController extends Controller
 
     public function article($uri)
     {
+        $post = Post::where('uri', $uri)->first();
         $head = $this->seo->render(
             env('APP_NAME') . ' Artigos UpInside',
             'Curso completo de Laravel Developer',
-            route('article'),
-            asset('images/img_bg_1.jpg')
+            route('article', $post->uri),
+            asset(\LaraCurso\Suporte\Cropper::thumb($post->cover, 1200, 628))
         );
         return view('front.article', [
             'head' => $head,
+            'post' => $post,
         ]);
     }
 
