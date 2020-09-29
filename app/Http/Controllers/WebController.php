@@ -3,6 +3,8 @@
 namespace LaraCurso\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use LaraCurso\Mail\Contact;
 use LaraCurso\Model\Post;
 
 class WebController extends Controller
@@ -77,5 +79,18 @@ class WebController extends Controller
         return view('front.contact', [
             'head' => $head,
         ]);
+    }
+
+    public function sendMail(Request $request)
+    {
+        $data = [
+            'replay_name' => "$request->first_name $request->last_name",
+            'replay_email' => $request->email,
+            'subject' => $request->subject,
+            'message' => $request->message,
+        ];
+
+        Mail::send(new Contact($data));
+        return redirect()->route('contact');
     }
 }
